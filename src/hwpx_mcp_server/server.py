@@ -19,7 +19,8 @@ from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 
 import mcp.types as mcp_types
-from mcp.server.fastmcp import FastMCP
+#from mcp.server.fastmcp import FastMCP
+from mcp.server.mcpserver import MCPServer
 
 from .core.content import (
     add_heading_to_doc,
@@ -58,8 +59,8 @@ except Exception:  # pragma: no cover - optional dependency compatibility
     build_proposal_document = None
     inspect_proposal_document_quality = None
 
-mcp = FastMCP("hwpx-mcp-server")
-
+# mcp = FastMCP("hwpx-mcp-server")
+mcp = MCPServer("hwpx-mcp-server")
 
 def _error_data(
     message: str,
