@@ -19,7 +19,7 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
 ]
 dependencies = [
-    "python-hwpx>=2.9.1", # interop fixes (issue #30/#34/#35) required by the current MCP surface
+    "python-hwpx>=6.8.0", # interop fixes (issue #30/#34/#35) required by the current MCP surface
 
     "pydantic>=2.7",
     "anyio>=4.0",

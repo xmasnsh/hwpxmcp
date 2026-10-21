@@ -15,7 +15,7 @@ Requires-Python: >=3.10
 Description-Content-Type: text/markdown
 License-File: LICENSE
 License-File: NOTICE
-Requires-Dist: python-hwpx>=2.9.1
+Requires-Dist: python-hwpx>=6.8.0
 Requires-Dist: pydantic>=2.7
 Requires-Dist: anyio>=4.0
 Requires-Dist: mcp>=2.0.0
